@@ -2,6 +2,7 @@ import torch.optim as optim
 from torch.optim import lr_scheduler
 from transformers import get_cosine_schedule_with_warmup
 
+from optim.adam_sf_ref import AdamWScheduleFreeReference
 from optim.adina import Adina
 from optim.adina_sf_ref import AdinaSchedulefreeReference
 from optim.adina_sf_approx import AdinaSchedulefreeApprox
